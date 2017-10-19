@@ -10,9 +10,9 @@
         <module name="axis2_case_client" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="axis2_case" target="1.5" />
-      <module name="axis2_case_client" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="axis2_case" target="1.8" />
+      <module name="axis2_case_client" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
