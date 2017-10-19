@@ -1,0 +1,16 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="axis2_case_client:war exploded">
+    <output-path>$PROJECT_DIR$/../axis2_case_client/target/axis2_case_client</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="axis2_case_client" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/../axis2_case_client/target/axis2_case_client/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="axis2_case_client/web/Web" />
+    </root>
+  </artifact>
+</component>
